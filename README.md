@@ -40,34 +40,43 @@ Stores order-product relationships
 Relationship Flow:
 users → orders → order_items → products
 
-Project Structure
+
+
+
+### Project Structure
+
+```text
 ecommerce-dba-backup-recovery/
 │
 ├── database/
 │   ├── schema.sql
-│   ├── seed_data.sql
+│   └── seed_data.sql
 │
 ├── backup/
 │   ├── ecommerce_backup.sql
-│   ├── backup_commands.txt
+│   └── backup_commands.txt
 │
 ├── recovery/
 │   ├── disaster_simulation.sql
-│   ├── restore_commands.txt
+│   └── restore_commands.txt
 │
 ├── scripts/
 │   ├── full_setup.sql
-│   ├── verify_data.sql
+│   └── verify_data.sql
 │
 ├── screenshots/
 │   ├── tables_created.png
 │   ├── data_inserted.png
 │   ├── backup_success.png
-│   ├── restore_success.png
+│   └── restore_success.png
 │
 └── docs/
     ├── architecture.md
-    ├── rpo_rto_explanation.md
+    └── rpo_rto_explanation.md
+
+
+
+
 
     How to Run This Project
 1️⃣ Create Database
