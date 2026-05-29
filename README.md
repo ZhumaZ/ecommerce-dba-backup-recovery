@@ -78,7 +78,8 @@ ecommerce-dba-backup-recovery/
 
 
 
-    How to Run This Project
+How to Run This Project
+
 1️⃣ Create Database
 CREATE DATABASE ecommerce_db;
 
